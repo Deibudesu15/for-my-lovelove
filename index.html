@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe7e9">
+  <meta name="description" content="A little surprise, made with love.">
+  <title>Open Mo Lang Po 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background-hearts" id="backgroundHearts" aria-hidden="true"></div>
+  <main class="scene">
+    <section class="intro" id="intro" aria-label="Open your surprise">
+      <h1>Open Mo Lang Po <span>♡</span></h1>
+      <button class="envelope" id="envelope" type="button" aria-label="Open the love letter">
+        <span class="letter-paper">hmmmmwuahhhhh mwuahhhh mwuahhhh 😘</span>
+        <span class="envelope-back"></span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-front"></span>
+        <span class="envelope-seal">♥</span>
+      </button>
+      <p class="hint">Tap Mo Lang Po Envelope 😍🥰</p>
+    </section>
+
+    <section class="window" id="letter" aria-label="Love letter" hidden>
+      <header class="window-bar"><span>lovelove ko shaniii 🥹 </span><span class="window-controls" aria-hidden="true">▢ ▢ ×</span></header>
+      <div class="hearts-strip" aria-hidden="true">♥ · ♥ · ♥ · ♥ · ♥</div>
+      <div class="window-content">
+        <div class="panel" id="question">
+          <h2>Sorry po lovelove ko sana mapatawad mona po ako, lovelove ko iloveyou po 🥹💗<br>Love mo padin po ba ako?🥲</h2>
+          <div class="pixel-cat" role="img" aria-label="Cute black pixel cat with a pink heart"><span class="cat-ears"></span><span class="cat-face"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="nose"></i></span><span class="cat-heart">♥</span></div>
+          <div class="buttons"><button class="choice yes" id="yes" type="button">Opo love na love 💗</button><button class="choice no" id="no" type="button">NO 🥲</button></div>
+          <p class="tiny" id="noMessage" aria-live="polite">Love mo padin ako leg8 lang ♡</p>
+        </div>
+        <div class="panel result" id="result" hidden>
+          <h2>Sabi ko nanga ba lovelove mo padin ako e 🥲🥰💖</h2>
+          <div class="pixel-cat happy" role="img" aria-label="Happy black pixel cat with a heart"><span class="cat-ears"></span><span class="cat-face"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="nose"></i></span><span class="cat-heart">♥</span></div>
+          <p class="love-message">Salamat po sa lahat lovelove ko at sa pagintindi sakin kahit sofer pasaway po ako. Araw araw po kitang love, lovelove ko mahal ko iloveyousomuch po lovelove ko 😍😘♡</p>
+          <button class="choice replay" id="again" type="button">Check mo po ulit 💌</button>
+        </div>
+      </div>
+    </section>
+    <p class="footer">Gawa Ni Lovieee Mo Po 🥰😅 </p>
+  </main>
+  <div class="confetti-layer" id="confetti" aria-hidden="true"></div>
+</body>
+</html>
